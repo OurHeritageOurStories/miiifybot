@@ -2,6 +2,10 @@ import discord
 import logging
 from decouple import config
 from discord.ext import commands
+from miiify import createAnnotation
+
+class Context:
+    pass
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.DEBUG)
@@ -37,6 +41,10 @@ async def square(ctx, arg):
     await ctx.send(int(arg) ** 2)
 
 
+ctx = Context()
+ctx.url = config('MIIIFY_URL')
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 
-client.run(DISCORD_TOKEN)
+print(createAnnotation(ctx, "hello world"))
+
+#client.run(DISCORD_TOKEN)
