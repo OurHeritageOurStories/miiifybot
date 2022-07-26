@@ -45,6 +45,6 @@ ctx = Context()
 ctx.url = config('MIIIFY_URL')
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 
-print(createAnnotation(ctx, "hello world"))
+print(createAnnotation(ctx, "hello world", "some page"))
 
 #client.run(DISCORD_TOKEN)

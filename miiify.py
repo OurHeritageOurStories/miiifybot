@@ -8,7 +8,7 @@ def createDict(body, target):
         "@context": "http://www.w3.org/ns/anno.jsonld",
         "type": "Annotation",
         "body": body,
-        "target": "http://example.com/page1"
+        "target": target
     }
     return dict
 
