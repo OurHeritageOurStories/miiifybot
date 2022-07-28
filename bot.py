@@ -3,7 +3,7 @@ import logging
 from decouple import config
 from discord.ext import commands
 from miiify import createAnnotation
-
+from gh import pr as gh_pr
 class Context:
     pass
 
@@ -43,8 +43,12 @@ async def square(ctx, arg):
 
 ctx = Context()
 ctx.url = config('MIIIFY_URL')
+ctx.gh_token = config('GH_TOKEN')
+
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 
-print(createAnnotation(ctx, "hello world", "some page"))
+gh_pr(ctx)
+
+#print(createAnnotation(ctx, "hello world", "some page"))
 
 #client.run(DISCORD_TOKEN)
