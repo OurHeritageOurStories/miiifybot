@@ -165,4 +165,8 @@ cython_debug/
 bin
 pyvenv.cfg
 
+# git repo
 db
+
+# from linux
+lib64
