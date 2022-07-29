@@ -3,6 +3,5 @@ from github import Github
 
 def pr(ctx):
     g = Github(ctx.gh_token)
-    # test printing repos for now
-    for repo in g.get_user().get_repos():
-        print(repo.name)
+    repo = g.get_repo("jptmoore/annotations")
+    pr = repo.create_pull(title="Miiifybot", body="automated test", base="master", head="testjohny:master")
