@@ -3,7 +3,8 @@ import logging
 from decouple import config
 from discord.ext import commands
 from miiify import createAnnotation
-from gh import pr as gh_pr
+from gh import pr,clone,push
+
 class Context:
     pass
 
@@ -47,8 +48,14 @@ ctx.gh_token = config('GH_TOKEN')
 
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 
-gh_pr(ctx)
+#clone(ctx)
 
-#print(createAnnotation(ctx, "hello world", "some page"))
+print("create annotation")
+createAnnotation(ctx, "hello world from code", "an image to annotate")
+print("push")
+push(ctx)
+print("pr")
+pr(ctx, "Miiifybot", "created from code")
+
 
 #client.run(DISCORD_TOKEN)
