@@ -2,8 +2,8 @@ import discord
 import logging
 from decouple import config
 from discord.ext import commands
-from miiify import createAnnotation
-from gh import pr,clone,push
+from miiify import create_annotation
+from gh import Repository
 
 class Context:
     pass
@@ -31,8 +31,8 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('$hello'):
-        await message.channel.send('Hello!')
+    if message.content.startswith('$describe'):
+        await message.channel.send(describe())
 
     await client.process_commands(message)
 
@@ -44,18 +44,26 @@ async def square(ctx, arg):
 
 ctx = Context()
 ctx.url = config('MIIIFY_URL')
-ctx.gh_token = config('GH_TOKEN')
+ctx.username = config('USERNAME')
+ctx.password = config('PASSWORD')
+ctx.local_repo = config('LOCAL_REPO')
+ctx.remote_repo = config('REMOTE_REPO')
+ctx.upstream_repo = config('UPSTREAM_REPO')
+ctx.repo_head = config('REPO_HEAD')
 
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 
-#clone(ctx)
 
-print("create annotation")
-createAnnotation(ctx, "hello world from code", "an image to annotate")
-print("push")
-push(ctx)
-print("pr")
-pr(ctx, "Miiifybot", "created from code")
+repo = Repository(ctx)
+#repo.clone(ctx)
+repo.pull_request("foo", "bar")
 
+
+# def describe():
+#     print("create annotation")
+#     create_annotation(ctx, "hello world from code", "an image to annotate")
+#     print("create pull request")
+#     create_pull_request(ctx, "Miiifybot", "created from code")
+#     return "created annotation"
 
 #client.run(DISCORD_TOKEN)

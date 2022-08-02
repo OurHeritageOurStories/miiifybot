@@ -1,21 +1,31 @@
 from github import Github
 from git import Repo
 
-def clone(ctx):
-    full_local_path = "db"
-    username = "testjohny"
-    password = ctx.gh_token
-    remote = f"https://{username}:{password}@github.com/testjohny/annotations.git"
-    Repo.clone_from(remote, full_local_path)
 
+class Repository:
+    def __init__(self, ctx):
+        self.local_repo = ctx.local_repo
+        self.remote_repo = ctx.remote_repo
+        self.upstream_repo = ctx.upstream_repo
+        self.username = ctx.username
+        self.password = ctx.password
+        self.repo_head = ctx.repo_head
 
-def push(ctx):
-    repo = Repo("db")
-    origin = repo.remote(name="origin")
-    origin.push()
+    def clone(self, ctx):
+        remote = f"https://{self.username}:{self.password}@github.com/{self.remote_repo}.git"
+        Repo.clone_from(remote, self.local_repo)
 
+    def __push(self):
+        repo = Repo(self.local_repo)
+        origin = repo.remote(name="origin")
+        origin.push()
 
-def pr(ctx, title, body):
-    g = Github(ctx.gh_token)
-    repo = g.get_repo("jptmoore/annotations")
-    pr = repo.create_pull(title, body, base="master", head="testjohny:master")
+    def __pr(self, title, body):
+        g = Github(self.password)
+        repo = g.get_repo(self.upstream_repo)
+        pr = repo.create_pull(title, body, base="master",
+                              head=self.repo_head)
+
+    def pull_request(self, title, body):
+        self.__push()
+        self.__pr(title, body)

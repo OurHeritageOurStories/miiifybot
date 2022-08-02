@@ -3,7 +3,7 @@ import requests
 headers = {'User-Agent': 'miiifybot 0.1'}
 
 
-def createDict(body, target):
+def create_dict(body, target):
     dict = {
         "@context": "http://www.w3.org/ns/anno.jsonld",
         "type": "Annotation",
@@ -13,8 +13,8 @@ def createDict(body, target):
     return dict
 
 
-def createAnnotation(ctx, body, target):
+def create_annotation(ctx, body, target):
     url = ctx.url
-    payload = createDict(body, target)
+    payload = create_dict(body, target)
     response = requests.post(url, json=payload, verify=False, headers=headers)
     return response.status_code
