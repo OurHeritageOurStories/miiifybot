@@ -2,7 +2,7 @@ import discord
 import logging
 from decouple import config
 from discord.ext import commands
-from miiify import create_annotation
+from miiify import Miiify
 from gh import Repository
 
 class Context:
@@ -43,7 +43,7 @@ async def square(ctx, arg):
 
 
 ctx = Context()
-ctx.url = config('MIIIFY_URL')
+ctx.miiify_url = config('MIIIFY_URL')
 ctx.username = config('USERNAME')
 ctx.password = config('PASSWORD')
 ctx.local_repo = config('LOCAL_REPO')
@@ -54,10 +54,13 @@ ctx.repo_head = config('REPO_HEAD')
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 
 
-repo = Repository(ctx)
+#repo = Repository(ctx)
 #repo.clone(ctx)
-repo.pull_request("foo", "bar")
+#repo.pull_request("foo", "bar")
 
+
+miiify = Miiify(ctx)
+miiify.create_annotation("foo", "bar")
 
 # def describe():
 #     print("create annotation")
