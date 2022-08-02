@@ -1,9 +1,10 @@
+from ast import AnnAssign
 import discord
 import logging
 from decouple import config
 from discord.ext import commands
-from miiify import Miiify
-from gh import Repository
+
+from annotation import Annotation
 
 class Context:
     pass
@@ -32,7 +33,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('$describe'):
-        await message.channel.send(describe())
+        await message.channel.send(anno.describe())
 
     await client.process_commands(message)
 
@@ -53,20 +54,7 @@ ctx.repo_head = config('REPO_HEAD')
 
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 
-
-#repo = Repository(ctx)
-#repo.clone(ctx)
-#repo.pull_request("foo", "bar")
-
-
-miiify = Miiify(ctx)
-miiify.create_annotation("foo", "bar")
-
-# def describe():
-#     print("create annotation")
-#     create_annotation(ctx, "hello world from code", "an image to annotate")
-#     print("create pull request")
-#     create_pull_request(ctx, "Miiifybot", "created from code")
-#     return "created annotation"
+anno = Annotation(ctx)
+anno.describe()
 
 #client.run(DISCORD_TOKEN)
