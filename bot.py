@@ -33,7 +33,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('$describe'):
-        await message.channel.send(anno.describe())
+        await message.channel.send(anno.describe(message.author.display_name, message.content))
 
     await client.process_commands(message)
 
@@ -55,6 +55,5 @@ ctx.repo_head = config('REPO_HEAD')
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 
 anno = Annotation(ctx)
-anno.describe()
 
-#client.run(DISCORD_TOKEN)
+client.run(DISCORD_TOKEN)

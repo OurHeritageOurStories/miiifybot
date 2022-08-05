@@ -7,8 +7,11 @@ class Annotation:
         self.repo = Repository(ctx)
 
 
-    def describe(self):
-        self.miiify.create_annotation("foo", "bar")
-        self.repo.pull_request("baz", "boz")
-        return "test complete"
+    def describe(self, author, content):
+        lis = content.split(' ')
+        target = lis[1]
+        body = ' '.join(lis[2:])
+        self.miiify.create_annotation(body, target)
+        self.repo.pull_request("Miiifybot", f"discord user {author}")
+        return f"annotation submiited for review by {author}"
     
