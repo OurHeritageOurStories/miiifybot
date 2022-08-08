@@ -31,6 +31,10 @@ async def on_message(message):
     if message.content.startswith('$describe'):
         await message.channel.send(anno.describe(message.author.display_name, message.content))
 
+    if message.content.startswith('$about'):
+        await message.channel.send(anno.about(message.content))
+       
+
     await client.process_commands(message)
 
 
