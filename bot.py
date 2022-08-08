@@ -39,8 +39,13 @@ async def on_message(message):
 
 
 @client.command()
-async def square(ctx, arg):
-    await ctx.send(int(arg) ** 2)
+async def square(self, arg):
+    await self.send(int(arg) ** 2)
+
+@client.command()
+async def clone(self):
+    await self.send(anno.clone(ctx))
+
 
 anno = Annotation(ctx)
 
