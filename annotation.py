@@ -13,7 +13,7 @@ class Annotation:
 
     def create_container(self, ctx):
         self.miiify.create_container("A Container for Miiifybot")
-        return f"Container created"
+        return f"Container {ctx.container} created"
 
 
     def describe(self, author, content):
@@ -22,7 +22,7 @@ class Annotation:
         body = ' '.join(lis[2:])
         self.miiify.create_annotation(author, body, target)
         self.repo.pull_request("Miiifybot", f"discord user {author}")
-        return f"annotation submiited for review by {author}"
+        return f"{author} submitted an annotation for review"
 
 
     def about(self, content):
