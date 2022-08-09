@@ -46,6 +46,9 @@ async def square(self, arg):
 async def clone(self):
     await self.send(anno.clone(ctx))
 
+@client.command()
+async def create_container(self):
+    await self.send(anno.create_container(ctx))
 
 anno = Annotation(ctx)
 

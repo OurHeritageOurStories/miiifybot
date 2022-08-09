@@ -10,6 +10,12 @@ class Annotation:
         self.repo.clone(ctx)
         return f"cloned {ctx.remote_repo} to {ctx.local_repo}"
 
+
+    def create_container(self, ctx):
+        self.miiify.create_container("A Container for Miiifybot")
+        return f"Container created"
+
+
     def describe(self, author, content):
         lis = content.split(' ')
         target = lis[1]

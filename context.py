@@ -5,6 +5,7 @@ class Context:
 
 ctx = Context()
 ctx.miiify_url = config('MIIIFY_URL')
+ctx.container = config('CONTAINER')
 ctx.username = config('USERNAME')
 ctx.password = config('PASSWORD')
 ctx.local_repo = config('LOCAL_REPO')
