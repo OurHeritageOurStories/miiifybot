@@ -25,6 +25,11 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+
+    embeds = message.embeds
+    for embed in embeds:
+        print(embed.to_dict())
+
     if message.author == client.user:
         return
 
@@ -49,6 +54,13 @@ async def clone(self):
 @client.command()
 async def create_container(self):
     await self.send(anno.create_container(ctx))
+
+
+@client.command()
+async def delete_annotation(self, id):
+    await self.send(anno.delete_annotation(id))
+
+
 
 anno = Annotation(ctx)
 

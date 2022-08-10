@@ -51,6 +51,15 @@ class Miiify:
             url, json=payload, verify=False, headers=headers)
         return response.status_code
 
+
+    def delete_annotation(self, id):
+        url = id
+        headers = self.__annotation_headers()
+        response = requests.delete(
+            url, verify=False, headers=headers)
+        return response.status_code
+
+
     def __parse(self, data, item):
         lis = data['first']['items']
         target_lis = list(filter(lambda x: x['target'] == item, lis))

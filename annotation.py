@@ -13,7 +13,13 @@ class Annotation:
 
     def create_container(self, ctx):
         self.miiify.create_container("A Container for Miiifybot")
+        self.repo.pull_request("Miiifybot", f"create {ctx.container} container")
         return f"Container {ctx.container} created"
+
+    def delete_annotation(self, id):
+        self.miiify.delete_annotation(id)
+        self.repo.pull_request("Miiifybot", f"delete {id} annotation")
+        return f"Annotation {id} deleted"
 
 
     def describe(self, author, content):
