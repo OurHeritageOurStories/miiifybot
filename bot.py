@@ -29,7 +29,7 @@ async def on_message(message):
     embeds = message.embeds
     for embed in embeds:
         dict = embed.to_dict()
-        anno.redact(dict)
+        await message.channel.send(anno.redact(dict))
 
     if message.author == client.user:
         return

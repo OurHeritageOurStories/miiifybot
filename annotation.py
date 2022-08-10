@@ -26,7 +26,8 @@ class Annotation:
         desc = dict['description']
         lis = desc.split('\n')
         for id in lis:
-            self.__delete_annotation(id.strip())        
+            self.__delete_annotation(id.strip())
+        return "redacted content"
 
 
     def describe(self, author, content):
