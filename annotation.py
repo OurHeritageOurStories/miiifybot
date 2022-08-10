@@ -16,10 +16,17 @@ class Annotation:
         self.repo.pull_request("Miiifybot", f"create {ctx.container} container")
         return f"Container {ctx.container} created"
 
-    def delete_annotation(self, id):
+    def __delete_annotation(self, id):
         self.miiify.delete_annotation(id)
         self.repo.pull_request("Miiifybot", f"delete {id} annotation")
         return f"Annotation {id} deleted"
+
+
+    def redact(self, dict):
+        desc = dict['description']
+        lis = desc.split('\n')
+        for id in lis:
+            self.__delete_annotation(id.strip())        
 
 
     def describe(self, author, content):

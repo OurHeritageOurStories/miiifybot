@@ -23,7 +23,13 @@ class Repository:
     def __pr(self, title, body):
         g = Github(self.password)
         repo = g.get_repo(self.upstream_repo)
-        pr = repo.create_pull(title, body, base="master",
+        # this could be more robust
+        pulls = repo.get_pulls(state='open')
+        users = list(map(lambda x: x.user.login, pulls))
+        if self.username in users:
+            return
+        else:
+            pr = repo.create_pull(title, body, base="master",
                               head=self.repo_head)
 
     def pull_request(self, title, body):
