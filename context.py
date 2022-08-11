@@ -4,7 +4,8 @@ class Context:
     pass
 
 ctx = Context()
-ctx.miiify_url = config('MIIIFY_URL')
+ctx.miiify_local_url = config('MIIIFY_LOCAL_URL')
+ctx.miiify_remote_url = config('MIIIFY_REMOTE_URL')
 ctx.container = config('CONTAINER')
 ctx.username = config('GH_USERNAME')
 ctx.password = config('GH_PASSWORD')

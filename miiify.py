@@ -3,7 +3,8 @@ import requests
 
 class Miiify:
     def __init__(self, ctx):
-        self.miiify_url = ctx.miiify_url
+        self.miiify_local_url = ctx.miiify_local_url
+        self.miiify_remote_url = ctx.miiify_remote_url
         self.container = ctx.container
 
     def __annotation_payload(self, author, body, target):
@@ -36,7 +37,7 @@ class Miiify:
         return dict
 
     def create_annotation(self, author, body, target):
-        url = f"{self.miiify_url}{self.container}/"
+        url = f"{self.miiify_local_url}{self.container}/"
         headers = self.__annotation_headers()
         payload = self.__annotation_payload(author, body, target)
         response = requests.post(
@@ -44,7 +45,7 @@ class Miiify:
         return response.status_code
 
     def create_container(self, name):
-        url = self.miiify_url
+        url = self.miiify_local_url
         headers = self.__container_headers(self.container)
         payload = self.__container_payload(name)
         response = requests.post(
@@ -63,13 +64,16 @@ class Miiify:
     def __parse(self, data, item):
         lis = data['first']['items']
         target_lis = list(filter(lambda x: x['target'] == item, lis))
-        res_lis = list(
-            map(lambda x: f"*{x['body']['value']}* by **{x['creator']['name']}**", target_lis))
-        res_str = '\n'.join(res_lis)
-        return res_str
+        if target_lis == []:
+            return "no contributions on this item"
+        else:
+            res_lis = list(
+                map(lambda x: f"*{x['body']['value']}* by **{x['creator']['name']}**", target_lis))
+            res_str = '\n'.join(res_lis)
+            return res_str
 
     def read_annotation(self, item):
-        url = f"{self.miiify_url}{self.container}/"
+        url = f"{self.miiify_remote_url}{self.container}/"
         headers = self.__annotation_headers()
         response = requests.get(url, verify=False, headers=headers)
         data = response.json()
