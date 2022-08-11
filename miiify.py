@@ -64,8 +64,9 @@ class Miiify:
         lis = data['first']['items']
         target_lis = list(filter(lambda x: x['target'] == item, lis))
         res_lis = list(
-            map(lambda x: {x['creator']['name'], x['body']['value']}, target_lis))
-        return str(res_lis)
+            map(lambda x: f"*{x['body']['value']}* by **{x['creator']['name']}**", target_lis))
+        res_str = '\n'.join(res_lis)
+        return res_str
 
     def read_annotation(self, item):
         url = f"{self.miiify_url}{self.container}/"
