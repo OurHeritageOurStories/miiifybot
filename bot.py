@@ -34,6 +34,9 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+    if message.content.startswith('$ping'):
+        await message.channel.send("**pong**")
+
     if message.content.startswith('$describe'):
         await message.channel.send(anno.describe(message.author.display_name, message.content))
 
