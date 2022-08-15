@@ -1,22 +1,10 @@
 import discord
-import logging
 from discord.ext import commands
-
 from annotation import Annotation
 from context import ctx
 
-logger = logging.getLogger('discord')
-logger.setLevel(logging.DEBUG)
-handler = logging.FileHandler(
-    filename='discord.log', encoding='utf-8', mode='w')
-handler.setFormatter(logging.Formatter(
-    '%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
-logger.addHandler(handler)
-
-
 client = discord.Client()
 client = commands.Bot(command_prefix=".")
-
 
 @client.event
 async def on_ready():
@@ -58,8 +46,6 @@ async def clone(self):
 @client.command()
 async def create_container(self):
     await self.send(anno.create_container(ctx))
-
-
 
 
 anno = Annotation(ctx)
