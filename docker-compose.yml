@@ -3,9 +3,11 @@ version: "3"
 services:
   web:
     image: jptmoore/miiify
+    command:
+      - "--config=miiify.config"
     ports:
-      - "80:8080"
-      - "443:8080"
+      - "5555:5555"
     volumes:
       - ./db:/home/miiify/db
+      - ./miiify.config:/home/miiify/miiify.config
     restart: always
