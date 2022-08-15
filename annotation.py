@@ -14,10 +14,13 @@ class Annotation:
         return f"{repo.description}\n cloned {ctx.remote_repo} to {ctx.local_repo}"
 
     def create_container(self, ctx):
-        self.miiify.create_container("A Container for Miiifybot")
-        self.repo.pull_request(
-            "Miiifybot", f"create {ctx.container} container")
-        return f"Container {ctx.container} created"
+        status_code = self.miiify.create_container("A Container for Miiifybot")
+        if status_code == 201:
+            self.repo.pull_request(
+                "Miiifybot", f"create {ctx.container} container")
+            return f"Annotation container {ctx.container} created"
+        else:
+            return f"Using annotation container {ctx.container}"
 
     def __delete_annotation(self, id):
         self.miiify.delete_annotation(id)
