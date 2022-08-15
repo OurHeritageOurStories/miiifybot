@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from annotation import Annotation
 from context import ctx
+from init import Init
 
 client = discord.Client()
 client = commands.Bot(command_prefix=".")
@@ -39,15 +40,8 @@ async def on_message(message):
 async def square(self, arg):
     await self.send(int(arg) ** 2)
 
-@client.command()
-async def clone(self):
-    await self.send(anno.clone(ctx))
-
-@client.command()
-async def create_container(self):
-    await self.send(anno.create_container(ctx))
-
-
 anno = Annotation(ctx)
+
+Init(ctx, anno)
 
 client.run(ctx.discord_token)

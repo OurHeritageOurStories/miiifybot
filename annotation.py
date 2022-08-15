@@ -10,8 +10,8 @@ class Annotation:
         self.container = ctx.container
 
     def clone(self, ctx):
-        self.repo.clone(ctx)
-        return f"cloned {ctx.remote_repo} to {ctx.local_repo}"
+        repo = self.repo.clone(ctx)
+        return f"{repo.description}\n cloned {ctx.remote_repo} to {ctx.local_repo}"
 
     def create_container(self, ctx):
         self.miiify.create_container("A Container for Miiifybot")

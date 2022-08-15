@@ -13,7 +13,9 @@ class Repository:
 
     def clone(self, ctx):
         remote = f"https://{self.username}:{self.password}@github.com/{self.remote_repo}.git"
-        Repo.clone_from(remote, self.local_repo)
+        repo = Repo.clone_from(remote, self.local_repo)
+        assert repo.__class__ is Repo
+        return repo
 
     def __push(self):
         repo = Repo(self.local_repo)
