@@ -5,6 +5,7 @@ services:
     image: jptmoore/miiify
     command:
       - "--config=miiify.config"
+    container_name: miiify
     ports:
       - "5555:5555"
     volumes:
