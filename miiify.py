@@ -7,8 +7,8 @@ class Miiify:
         self.miiify_remote_url = ctx.miiify_remote_url
         self.container = ctx.container
 
-    def __host(self):
-        lis = self.miiify_remote_url.split('/')
+    def host(self, url):
+        lis = url.split('/')
         assert len(lis) == 5
         return(lis[2])
 
@@ -34,7 +34,7 @@ class Miiify:
         return dict
 
     def __basic_headers(self):
-        dict = {'User-Agent': 'miiifybot 0.1', 'Host': self.__host()}
+        dict = {'User-Agent': 'miiifybot 0.1', 'Host': self.host(self.miiify_remote_url)}
         return dict
 
     def __slug_headers(self, slug):

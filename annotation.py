@@ -34,6 +34,11 @@ class Annotation:
             case _ as uri:
                 return False
 
+    def __make_localhost_annotation(self, uri):
+        lis = uri.split('/')
+        lis[2] = self.miiify.host(self.miiify.miiify_local_url)
+        return '/'.join(lis)
+
     def redact(self, dict):
         try:
             desc = dict['description']
@@ -41,7 +46,9 @@ class Annotation:
             complete = True
             for id in lis:
                 if self.__is_annotation(id):
-                    self.__delete_annotation(id.strip())
+                    uri = id.strip()
+                    local_uri = self.__make_localhost_annotation(uri)
+                    self.__delete_annotation(local_uri)
                 else:
                     complete = False
                     self.logger.info(f"Ignoring {id} as it does not appear to be a valid annotation uri")
