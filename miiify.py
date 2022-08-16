@@ -7,6 +7,10 @@ class Miiify:
         self.miiify_remote_url = ctx.miiify_remote_url
         self.container = ctx.container
 
+    def __host(self):
+        lis = self.miiify_remote_url.split('/')
+        assert len(lis) == 5
+        return(lis[2])
 
     def __annotation_payload(self, author, body, target):
         dict = {
@@ -29,19 +33,21 @@ class Miiify:
         }
         return dict
 
-    def __annotation_headers(self):
-        dict = {'User-Agent': 'miiifybot 0.1'}
+    def __basic_headers(self):
+        dict = {'User-Agent': 'miiifybot 0.1', 'Host': self.__host()}
         return dict
 
-    def __container_headers(self, slug):
-        dict = {'User-Agent': 'miiifybot 0.1', 'Slug': slug}
+    def __slug_headers(self, slug):
+        dict = self.__basic_headers()
+        dict['Slug'] = slug
         return dict
 
 
     def is_alive(self):
         lis = self.miiify_local_url.split('/')
+        assert len(lis) == 5
         url = '/'.join(lis[0:3]) # remove /annotations/
-        headers = self.__annotation_headers()
+        headers = self.__basic_headers()
         try:
             response = requests.get(url, verify=False, headers=headers)
         except:
@@ -51,8 +57,9 @@ class Miiify:
 
 
     def create_annotation(self, author, body, target):
+
         url = f"{self.miiify_local_url}{self.container}/"
-        headers = self.__annotation_headers()
+        headers = self.__basic_headers()
         payload = self.__annotation_payload(author, body, target)
         response = requests.post(
             url, json=payload, verify=False, headers=headers)
@@ -60,7 +67,7 @@ class Miiify:
 
     def create_container(self, name):
         url = self.miiify_local_url
-        headers = self.__container_headers(self.container)
+        headers = self.__slug_headers(self.container)
         payload = self.__container_payload(name)
         response = requests.post(
             url, json=payload, verify=False, headers=headers)
@@ -69,7 +76,7 @@ class Miiify:
 
     def delete_annotation(self, id):
         url = id
-        headers = self.__annotation_headers()
+        headers = self.__basic_headers()
         response = requests.delete(
             url, verify=False, headers=headers)
         return response.status_code
@@ -88,7 +95,7 @@ class Miiify:
 
     def read_annotation(self, item):
         url = f"{self.miiify_remote_url}{self.container}/"
-        headers = self.__annotation_headers()
+        headers = self.__basic_headers()
         response = requests.get(url, verify=False, headers=headers)
         data = response.json()
         return self.__parse(data, item)
