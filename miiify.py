@@ -7,6 +7,7 @@ class Miiify:
         self.miiify_remote_url = ctx.miiify_remote_url
         self.container = ctx.container
 
+
     def __annotation_payload(self, author, body, target):
         dict = {
             "@context": "http://www.w3.org/ns/anno.jsonld",
@@ -35,6 +36,19 @@ class Miiify:
     def __container_headers(self, slug):
         dict = {'User-Agent': 'miiifybot 0.1', 'Slug': slug}
         return dict
+
+
+    def is_alive(self):
+        lis = self.miiify_local_url.split('/')
+        url = '/'.join(lis[0:3]) # remove /annotations/
+        headers = self.__annotation_headers()
+        try:
+            response = requests.get(url, verify=False, headers=headers)
+        except:
+            return False
+        else:
+            return response.status_code == 200
+
 
     def create_annotation(self, author, body, target):
         url = f"{self.miiify_local_url}{self.container}/"
