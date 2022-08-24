@@ -31,7 +31,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "images/cat1.jpg",
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat1.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4613,
@@ -63,7 +63,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "images/cat2.jpg",
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat2.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3186,
@@ -95,7 +95,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "images/cat3.jpg",
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat3.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3204,
@@ -127,7 +127,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "images/cat4.jpg",
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat4.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3174,
@@ -159,7 +159,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "images/cat5.jpg",
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat5.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3198,
