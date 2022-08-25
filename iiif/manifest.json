@@ -166,7 +166,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Naro"
         ]
       },
       "width": 3198,
@@ -196,7 +196,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Mittens"
         ]
       },
       "width": 3198,
@@ -226,7 +226,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Apelmon"
         ]
       },
       "width": 3198,
@@ -256,7 +256,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Pip"
         ]
       },
       "width": 3198,
@@ -286,7 +286,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Tuna"
         ]
       },
       "width": 3198,
@@ -316,7 +316,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Willow"
         ]
       },
       "height": 4613,
@@ -346,7 +346,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Mac the cat sat in a box"
         ]
       },
       "width": 3186,
@@ -376,7 +376,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "the cat from Borodianka"
         ]
       },
       "width": 3204,
@@ -406,7 +406,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "CC"
         ]
       },
       "width": 3174,
@@ -436,7 +436,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Orangey"
         ]
       },
       "width": 3198,
@@ -466,7 +466,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Mrs. Chippy"
         ]
       },
       "width": 3198,
@@ -481,9 +481,9 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat16.jpg",
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat16.png",
                 "type": "Image",
-                "format": "image/jpeg"
+                "format": "image/png"
               },
               "target": "https://miiify.rocks/iiif/demo/canvas/p16"
             }
@@ -496,7 +496,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Unsinkable Sam"
         ]
       },
       "width": 3198,
@@ -526,7 +526,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Tama"
         ]
       },
       "width": 3198,
@@ -556,7 +556,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Socks"
         ]
       },
       "width": 3198,
@@ -586,7 +586,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "xxxxx"
+          "Nora"
         ]
       },
       "width": 3198,
