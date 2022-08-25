@@ -33,9 +33,7 @@
               "body": {
                 "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat1.jpg",
                 "type": "Image",
-                "format": "image/jpeg",
-                "height": 4613,
-                "width": 3204
+                "format": "image/jpeg"
               },
               "target": "https://miiify.rocks/iiif/demo/canvas/p1"
             }
@@ -65,9 +63,7 @@
               "body": {
                 "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat2.jpg",
                 "type": "Image",
-                "format": "image/jpeg",
-                "width": 3186,
-                "height": 4612
+                "format": "image/jpeg"
               },
               "target": "https://miiify.rocks/iiif/demo/canvas/p2"
             }
@@ -97,9 +93,7 @@
               "body": {
                 "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat3.jpg",
                 "type": "Image",
-                "format": "image/jpeg",
-                "width": 3204,
-                "height": 4613
+                "format": "image/jpeg"
               },
               "target": "https://miiify.rocks/iiif/demo/canvas/p3"
             }
@@ -129,9 +123,7 @@
               "body": {
                 "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat4.jpg",
                 "type": "Image",
-                "format": "image/jpeg",
-                "width": 3174,
-                "height": 4578
+                "format": "image/jpeg"
               },
               "target": "https://miiify.rocks/iiif/demo/canvas/p4"
             }
@@ -161,11 +153,459 @@
               "body": {
                 "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat5.jpg",
                 "type": "Image",
-                "format": "image/jpeg",
-                "width": 3198,
-                "height": 4632
+                "format": "image/jpeg"
               },
               "target": "https://miiify.rocks/iiif/demo/canvas/p5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p0006-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat6.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p7/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p0007-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat7.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p8/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p0008-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat8.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p0008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p9/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p0009-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat9.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p10/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00010-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat10.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "height": 4613,
+      "width": 3204,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p11/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00011-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat11.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p12",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3186,
+      "height": 4612,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p12/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00012-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat12.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p13",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3204,
+      "height": 4613,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p13/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00013-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat13.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p14",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3174,
+      "height": 4578,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p14/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00014-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat14.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p15",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p15/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00015-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat15.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p16",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p16/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00016-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat16.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p17",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p17/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00017-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat17.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p18",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p18/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00018-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat18.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p00018"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p19",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p19/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00019-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat19.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://miiify.rocks/iiif/demo/canvas/p20",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "xxxxx"
+        ]
+      },
+      "width": 3198,
+      "height": 4632,
+      "items": [
+        {
+          "id": "https://miiify.rocks/iiif/demo/page/p20/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://miiify.rocks/iiif/demo/annotation/p00020-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat20.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://miiify.rocks/iiif/demo/canvas/p20"
             }
           ]
         }
