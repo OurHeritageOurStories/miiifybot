@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://miiify.rocks/iiif/demo/manifest.json",
+  "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
