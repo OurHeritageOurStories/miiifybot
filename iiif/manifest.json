@@ -31,7 +31,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat1.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fat_cat%2C_asleep_%28319313958%29.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -61,7 +61,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat2.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/9/90/Crimean_Tom.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -91,7 +91,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat3.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/1/16/Stationmaster_NITAMA_20110105.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -121,7 +121,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat4.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Foss_Couchant.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -151,7 +151,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat5.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/9/94/%C5%9Eero_CHP.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -181,7 +181,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat6.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Naro%2C_blue-eyed_cross-siamese_cat%2C_at_Josselin_04.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -211,7 +211,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat7.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Mittens_the_cat_of_wellington.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -241,7 +241,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat8.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/8/81/%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D0%BA%D0%B0_%D0%94%D1%96%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE_%D0%B7_%D0%BA%D0%BE%D1%82%D0%BE%D0%BC_%D0%90%D0%BF%D0%B5%D0%BB%D1%8C%D0%BC%D0%BE%D0%BD%D0%BE%D0%BC.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -271,7 +271,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat9.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/9/92/Henry_Wellcome%27s_cats_Wellcome_L0069711.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -301,7 +301,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat10.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/7/77/Tuna_Chapa%2C_Brewing_Beer.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -331,7 +331,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat11.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/6/60/Willow_the_First_Cat.png",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -361,7 +361,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat12.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/1/19/Mac_the_cat_sat_in_a_box.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -391,7 +391,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat13.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Rescue_of_a_cat_in_Borodianka%2C_2_May_2022_%284%29.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -421,7 +421,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat14.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ccandowner2003.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -451,7 +451,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat15.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Orangey_with_Audrey_Hepburn_in_Breakfast_at_Tiffanys.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -481,7 +481,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat16.png",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/d/db/Mrschippy2.png",
                 "type": "Image",
                 "format": "image/png"
               },
@@ -511,7 +511,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat17.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/4/48/Unsinkable_Sam_portrait.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -541,7 +541,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat18.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Station-Master_Tama.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -571,7 +571,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat19.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/1/18/Socks_the_Cat_Explores.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -601,7 +601,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/images/cat20.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/e/e4/NoraPianoCat.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },

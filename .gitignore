@@ -170,3 +170,6 @@ db
 
 # from linux
 lib64
+
+# from mac
+.DS_Store
