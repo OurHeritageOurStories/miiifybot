@@ -12,7 +12,7 @@
   ],
   "items": [
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p1",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -23,11 +23,11 @@
       "width": 3204,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p1/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0001-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -35,14 +35,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p1"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p2",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -53,11 +53,11 @@
       "height": 4612,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p2/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0002-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -65,14 +65,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p2"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p3",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -83,11 +83,11 @@
       "height": 4613,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p3/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0003-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -95,14 +95,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p3"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p4",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p4",
       "type": "Canvas",
       "label": {
         "en": [
@@ -113,11 +113,11 @@
       "height": 4578,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p4/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0004-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -125,14 +125,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p4"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p5",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p5",
       "type": "Canvas",
       "label": {
         "en": [
@@ -143,11 +143,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p5/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0005-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0005-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -155,14 +155,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p5"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p6",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p6",
       "type": "Canvas",
       "label": {
         "en": [
@@ -173,11 +173,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p6/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p6/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0006-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0006-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -185,14 +185,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p6"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p7",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p7",
       "type": "Canvas",
       "label": {
         "en": [
@@ -203,11 +203,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p7/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p7/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0007-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0007-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -215,14 +215,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p7"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p8",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p8",
       "type": "Canvas",
       "label": {
         "en": [
@@ -233,11 +233,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p8/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p8/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0008-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0008-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -245,14 +245,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p8"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p9",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p9",
       "type": "Canvas",
       "label": {
         "en": [
@@ -263,11 +263,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p9/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p9/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p0009-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p0009-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -275,14 +275,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p9"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p9"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p10",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p10",
       "type": "Canvas",
       "label": {
         "en": [
@@ -293,11 +293,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p10/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p10/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00010-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00010-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -305,14 +305,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p10"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p10"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p11",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p11",
       "type": "Canvas",
       "label": {
         "en": [
@@ -323,11 +323,11 @@
       "width": 3204,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p11/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p11/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00011-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00011-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -335,14 +335,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p11"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p11"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p12",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p12",
       "type": "Canvas",
       "label": {
         "en": [
@@ -353,11 +353,11 @@
       "height": 4612,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p12/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p12/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00012-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00012-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -365,14 +365,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p12"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p12"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p13",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p13",
       "type": "Canvas",
       "label": {
         "en": [
@@ -383,11 +383,11 @@
       "height": 4613,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p13/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p13/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00013-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00013-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -395,14 +395,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p13"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p13"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p14",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p14",
       "type": "Canvas",
       "label": {
         "en": [
@@ -413,11 +413,11 @@
       "height": 4578,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p14/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p14/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00014-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00014-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -425,14 +425,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p14"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p14"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p15",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p15",
       "type": "Canvas",
       "label": {
         "en": [
@@ -443,11 +443,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p15/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p15/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00015-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00015-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -455,14 +455,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p15"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p15"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p16",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p16",
       "type": "Canvas",
       "label": {
         "en": [
@@ -473,11 +473,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p16/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p16/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00016-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00016-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -485,14 +485,14 @@
                 "type": "Image",
                 "format": "image/png"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p16"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p16"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p17",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p17",
       "type": "Canvas",
       "label": {
         "en": [
@@ -503,11 +503,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p17/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p17/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00017-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00017-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -515,14 +515,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p17"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p17"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p18",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p18",
       "type": "Canvas",
       "label": {
         "en": [
@@ -533,11 +533,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p18/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p18/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00018-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00018-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -545,14 +545,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p18"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p18"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p19",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p19",
       "type": "Canvas",
       "label": {
         "en": [
@@ -563,11 +563,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p19/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p19/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00019-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00019-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -575,14 +575,14 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p19"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p19"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://miiify.rocks/iiif/demo/canvas/p20",
+      "id": "https://miiify.rocks/iiif/cats/canvas/p20",
       "type": "Canvas",
       "label": {
         "en": [
@@ -593,11 +593,11 @@
       "height": 4632,
       "items": [
         {
-          "id": "https://miiify.rocks/iiif/demo/page/p20/1",
+          "id": "https://miiify.rocks/iiif/cats/page/p20/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://miiify.rocks/iiif/demo/annotation/p00020-image",
+              "id": "https://miiify.rocks/iiif/cats/annotation/p00020-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -605,7 +605,7 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://miiify.rocks/iiif/demo/canvas/p20"
+              "target": "https://miiify.rocks/iiif/cats/canvas/p20"
             }
           ]
         }
