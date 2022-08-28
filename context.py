@@ -1,4 +1,5 @@
-from decouple import config
+from decouple import config as config_env
+from configparser import ConfigParser
 import logging
 
 logger = logging.getLogger('discord')
@@ -13,16 +14,20 @@ class Context:
     pass
 
 ctx = Context()
-
 ctx.logger = logger
+config_ini = ConfigParser()
+config_ini.read('config.ini')
 
-ctx.miiify_local_url = config('MIIIFY_LOCAL_URL')
-ctx.miiify_remote_url = config('MIIIFY_REMOTE_URL')
-ctx.container = config('CONTAINER')
-ctx.username = config('GH_USERNAME')
-ctx.password = config('GH_PASSWORD')
-ctx.local_repo = config('LOCAL_REPO')
-ctx.remote_repo = config('REMOTE_REPO')
-ctx.upstream_repo = config('UPSTREAM_REPO')
-ctx.repo_head = config('REPO_HEAD')
-ctx.discord_token = config('DISCORD_TOKEN')
+# config.ini settings
+ctx.miiify_local_url = config_ini.get('main', 'MIIIFY_LOCAL_URL')
+ctx.miiify_remote_url = config_ini.get('main', 'MIIIFY_REMOTE_URL')
+ctx.container = config_ini.get('main', 'CONTAINER')
+ctx.local_repo = config_ini.get('main', 'LOCAL_REPO')
+ctx.remote_repo = config_ini.get('main', 'REMOTE_REPO')
+ctx.upstream_repo = config_ini.get('main', 'UPSTREAM_REPO')
+ctx.repo_head = config_ini.get('main', 'REPO_HEAD')
+
+# .env settings
+ctx.discord_token = config_env('DISCORD_TOKEN')
+ctx.username = config_env('GH_USERNAME')
+ctx.password = config_env('GH_PASSWORD')
