@@ -1,6 +1,6 @@
 from miiify import Miiify
 from gh import Repository
-
+from manifest import Manifest
 
 class Annotation:
     def __init__(self, ctx):
@@ -8,6 +8,7 @@ class Annotation:
         self.repo = Repository(ctx)
         self.logger = ctx.logger
         self.container = ctx.container
+        self.manifest = Manifest(ctx)
 
     def clone(self, ctx):
         repo = self.repo.clone(ctx)
@@ -66,10 +67,13 @@ class Annotation:
     def describe(self, author, content):
         lis = content.split(' ')
         target = lis[1]
-        body = ' '.join(lis[2:])
-        self.miiify.create_annotation(author, body, target)
-        self.repo.pull_request("Miiifybot", f"discord user {author}")
-        return f"{author} submitted an annotation for review"
+        if self.manifest.target_exists(target):
+            body = ' '.join(lis[2:])
+            self.miiify.create_annotation(author, body, target)
+            self.repo.pull_request("Miiifybot", f"discord user {author}")
+            return f"{author} submitted an annotation for review"
+        else:
+            return f"{target} does not exist to describe"
 
     def about(self, content):
         lis = content.split(' ')

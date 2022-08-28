@@ -21,6 +21,7 @@ config_ini.read('config.ini')
 # config.ini settings
 ctx.miiify_local_url = config_ini.get('main', 'MIIIFY_LOCAL_URL')
 ctx.miiify_remote_url = config_ini.get('main', 'MIIIFY_REMOTE_URL')
+ctx.manifest_url = config_ini.get('main', 'MANIFEST_URL')
 ctx.container = config_ini.get('main', 'CONTAINER')
 ctx.local_repo = config_ini.get('main', 'LOCAL_REPO')
 ctx.remote_repo = config_ini.get('main', 'REMOTE_REPO')
