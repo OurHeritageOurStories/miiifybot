@@ -609,6 +609,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats",
+          "type": "AnnotationPage"
+        }
       ]
     }
   ]
