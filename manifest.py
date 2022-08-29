@@ -5,7 +5,6 @@ class Manifest:
     def __init__(self, ctx):
         self.manifest_url = ctx.manifest_url
         self.logger = ctx.logger
-        self.target_prefix = ctx.target_prefix
 
     def target_exists(self, target):
         try:
@@ -18,7 +17,7 @@ class Manifest:
                 json = response.json()
                 jsonpath_expression = parse('items[*].items[*].items[*].target')
                 lis = [match.value for match in jsonpath_expression.find(json)]
-                if (self.target_prefix+target) in lis:
+                if target in lis:
                     return True
                 else:
                     return False

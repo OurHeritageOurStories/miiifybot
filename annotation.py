@@ -9,6 +9,7 @@ class Annotation:
         self.logger = ctx.logger
         self.container = ctx.container
         self.manifest = Manifest(ctx)
+        self.target_prefix = ctx.target_prefix
 
     def clone(self, ctx):
         repo = self.repo.clone(ctx)
@@ -67,7 +68,7 @@ class Annotation:
 
     def describe(self, author, content):
         lis = content.split(' ')
-        target = lis[1]
+        target = self.target_prefix+lis[1]
         if self.manifest.target_exists(target):
             body = ' '.join(lis[2:])
             self.miiify.create_annotation(author, body, target)
@@ -78,7 +79,7 @@ class Annotation:
 
     def about(self, content):
         lis = content.split(' ')
-        target = lis[1]
+        target = self.target_prefix+lis[1]
         if self.manifest.target_exists(target):
             res = self.miiify.read_annotation(target)
             return res
