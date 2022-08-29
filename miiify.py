@@ -16,6 +16,7 @@ class Miiify:
         dict = {
             "@context": "http://www.w3.org/ns/anno.jsonld",
             "type": "Annotation",
+            "motivation": "commenting",
             "body": {"type": "TextualBody", "value": body, "format": "text/plain"},
             "target": target,
             "creator": {"name": author}
