@@ -82,9 +82,9 @@ class Miiify:
         return response.status_code
 
 
-    def __parse(self, data, item):
-        lis = data['first']['items']
-        target_lis = list(filter(lambda x: x['target'] == item, lis))
+    def __parse(self, data, target):
+        lis = data['items']
+        target_lis = list(filter(lambda x: x['target'] == target, lis))
         if target_lis == []:
             return "no contributions on this item"
         else:
@@ -93,9 +93,9 @@ class Miiify:
             res_str = '\n'.join(res_lis)
             return res_str
 
-    def read_annotation(self, item):
-        url = f"{self.miiify_remote_url}{self.container}/"
+    def read_annotation(self, target):
+        url = f"{self.miiify_remote_url}{self.container}"
         headers = self.__basic_headers()
         response = requests.get(url, verify=False, headers=headers)
         data = response.json()
-        return self.__parse(data, item)
+        return self.__parse(data, target)
