@@ -74,7 +74,7 @@ class Annotation:
             self.repo.pull_request("Miiifybot", f"discord user {author}")
             return f"{author} submitted an annotation for review"
         else:
-            return f"{target} does not exist to describe"
+            return f"{target} does not exist"
 
     def about(self, content):
         lis = content.split(' ')
@@ -83,4 +83,4 @@ class Annotation:
             res = self.miiify.read_annotation(target)
             return res
         else:
-            return f"{target} does not exist to describe"
+            return f"{target} does not exist"
