@@ -41,6 +41,7 @@ class Annotation:
         return '/'.join(lis)
 
     def redact(self, dict):
+        self.logger.info(f"redact: {dict}")
         try:
             desc = dict['description']
             lis = desc.split('\n')
@@ -77,6 +78,9 @@ class Annotation:
 
     def about(self, content):
         lis = content.split(' ')
-        item = lis[1]
-        res = self.miiify.read_annotation(item)
-        return res
+        target = lis[1]
+        if self.manifest.target_exists(target):
+            res = self.miiify.read_annotation(target)
+            return res
+        else:
+            return f"{target} does not exist to describe"
