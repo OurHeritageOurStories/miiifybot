@@ -6,6 +6,7 @@ class Miiify:
         self.miiify_local_url = ctx.miiify_local_url
         self.miiify_remote_url = ctx.miiify_remote_url
         self.container = ctx.container
+        self.logger = ctx.logger
 
     def host(self, url):
         lis = url.split('/')
@@ -97,6 +98,16 @@ class Miiify:
     def read_annotation(self, target):
         url = f"{self.miiify_remote_url}{self.container}"
         headers = self.__basic_headers()
-        response = requests.get(url, verify=False, headers=headers)
-        data = response.json()
-        return self.__parse(data, target)
+        try:
+            response = requests.get(url, verify=True, headers=headers)
+        except Exception as e:
+            self.logger.error(e)
+            return f"I am having problems accessing {url}"
+        else:
+            try:
+                data = response.json()
+            except Exception as e:
+                self.logger.error(e)   
+                return f"I am having problems reading the JSON back from {url}" 
+            else:
+                return self.__parse(data, target)

@@ -2,6 +2,7 @@ from miiify import Miiify
 from gh import Repository
 from manifest import Manifest
 
+
 class Annotation:
     def __init__(self, ctx):
         self.miiify = Miiify(ctx)
@@ -54,7 +55,8 @@ class Annotation:
                     self.__delete_annotation(local_uri)
                 else:
                     complete = False
-                    self.logger.info(f"Ignoring {id} as it does not appear to be a valid annotation uri")
+                    self.logger.info(
+                        f"Ignoring {id} as it does not appear to be a valid annotation uri")
         except:
             self.logger.error('was not able to parse the embeds content')
             return "burp!"
@@ -71,6 +73,8 @@ class Annotation:
         target = self.target_prefix+lis[1]
         if self.manifest.target_exists(target):
             body = ' '.join(lis[2:])
+            if body == '':
+                return "Need to provide a description for the item"
             self.miiify.create_annotation(author, body, target)
             self.repo.pull_request("Miiifybot", f"discord user {author}")
             return f"{author} submitted an annotation for review"
