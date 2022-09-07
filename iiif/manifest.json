@@ -519,6 +519,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p17",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -612,7 +618,7 @@
       ],
       "annotations": [
         {
-          "id": "https://miiify.rocks/annotations/cats",
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p20",
           "type": "AnnotationPage"
         }
       ]
