@@ -39,6 +39,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p1",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -68,6 +74,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p2",
+          "type": "AnnotationPage"
         }
       ]
     },
@@ -99,6 +111,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p3",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -128,6 +146,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p4"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p4",
+          "type": "AnnotationPage"
         }
       ]
     },
@@ -159,6 +183,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p5",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -188,6 +218,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p6"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p6",
+          "type": "AnnotationPage"
         }
       ]
     },
@@ -219,6 +255,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p7",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -248,6 +290,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p8"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p8",
+          "type": "AnnotationPage"
         }
       ]
     },
@@ -279,6 +327,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p9",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -308,6 +362,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p10"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p10",
+          "type": "AnnotationPage"
         }
       ]
     },
@@ -339,6 +399,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p11",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -368,6 +434,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p12"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p12",
+          "type": "AnnotationPage"
         }
       ]
     },
@@ -399,6 +471,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p13",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -428,6 +506,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p14"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p14",
+          "type": "AnnotationPage"
         }
       ]
     },
@@ -459,6 +543,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p15",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -488,6 +578,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p16"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p16",
+          "type": "AnnotationPage"
         }
       ]
     },
@@ -555,6 +651,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p18",
+          "type": "AnnotationPage"
+        }
       ]
     },
     {
@@ -584,6 +686,12 @@
               "target": "https://miiify.rocks/iiif/cats/canvas/p19"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://miiify.rocks/annotations/cats?target=https://miiify.rocks/iiif/cats/canvas/p19",
+          "type": "AnnotationPage"
         }
       ]
     },
