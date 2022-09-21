@@ -91,7 +91,7 @@ class Miiify:
             return "no contributions on this item"
         else:
             res_lis = list(
-                map(lambda x: f"*{x['body']['value']}* by **{x['creator']['name']}**", target_lis))
+                map(lambda x: f"{x['body']['value']} (contributor: {x['creator']['name']})", target_lis))
             res_str = '\n'.join(res_lis)
             return res_str
 
