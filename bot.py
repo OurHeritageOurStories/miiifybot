@@ -14,7 +14,7 @@ client = commands.Bot(command_prefix=".", intents=intents)
 
 @client.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    ctx.logger.info('We have logged in as {0.user}'.format(client))
 
 
 def handle_command(message):
