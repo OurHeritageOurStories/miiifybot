@@ -68,11 +68,10 @@ class Annotation:
                 self.logger.error('did not redact all the annotations')
                 return "burp!"
 
-    def describe(self, author, content):
-        lis = content.split(' ')
-        target = self.target_prefix+lis[1]
+    def describe(self, author, item, description):
+        target = self.target_prefix+item
+        body = description
         if self.manifest.target_exists(target):
-            body = ' '.join(lis[2:])
             if body == '':
                 return "Need to provide a description for the item"
             self.miiify.create_annotation(author, body, target)
@@ -81,9 +80,8 @@ class Annotation:
         else:
             return f"{target} does not exist"
 
-    def about(self, content):
-        lis = content.split(' ')
-        target = self.target_prefix+lis[1]
+    def about(self, item):
+        target = self.target_prefix+item
         if self.manifest.target_exists(target):
             res = self.miiify.read_annotation(target)
             return res
