@@ -16,11 +16,11 @@ async def on_ready():
 
 def handle_command(message):
     match message.content.split(' '):
-        case ['$describe', item, *xs]:
+        case ['$describe', item, *xs] if xs != []:
             author = message.author.display_name
             description = ' '.join(xs)
             return anno.describe(author, item, description)
-        case ['$about', item]:
+        case ['$about' | '$info', item]:
             return anno.about(item)
         case ['$ping']:
             return 'pong'

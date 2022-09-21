@@ -72,13 +72,11 @@ class Annotation:
         target = self.target_prefix+item
         body = description
         if self.manifest.target_exists(target):
-            if body == '':
-                return "Need to provide a description for the item"
             self.miiify.create_annotation(author, body, target)
             self.repo.pull_request("Miiifybot", f"discord user {author}")
             return f"{author} submitted an annotation for review"
         else:
-            return f"{target} does not exist"
+            return f"{item} does not exist"
 
     def about(self, item):
         target = self.target_prefix+item
