@@ -1,12 +1,24 @@
 # Miiifybot
 
-## Discord chatbot for integration into Mozilla Hubs
+## Introduction
 
-This works builds on technology available in [Miiify](https://github.com/nationalarchives/miiify) to allow the community to interact with content displayed in a 3D virtual gallery. Users can learn about the content on display and also contribute back their knowledge. All contributions go through a review process before being accessible within the platform or within IIIF viewers.
+Miiify is a Discord chatbot for integration into Mozilla Hubs. It builds on technology available in [Miiify](https://github.com/nationalarchives/miiify) to allow the community to interact with content displayed in a 3D virtual gallery. Users can learn about the content on display and also contribute back their knowledge. All contributions go through a review process before being accessible within the platform or within IIIF viewers.
+
+## Chatbot commands
+
+To display all annotations associated with the item:
+```
+$about <item>
+```
+
+To create a new annotation for an item. This will then be submitted for review before being accessible to all.
+```
+$describe <item> <description>
+```
 
 ## Example gallery
 
-You try an example gallery of cats from Wikidata:
+You can try an example gallery of cats from Wikidata:
 
 https://hubs.mozilla.com/dcRzw4T/general
 
