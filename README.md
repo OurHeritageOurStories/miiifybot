@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Miiify is a Discord chatbot for integration into Mozilla Hubs. It builds on technology available in [Miiify](https://github.com/nationalarchives/miiify) to allow the community to interact with content displayed in a 3D virtual gallery. Users can learn about the content on display and also contribute back their knowledge. All contributions go through a review process before being accessible within the platform or within IIIF viewers.
+Miiifybot is a Discord chatbot for integration into Mozilla Hubs. It builds on technology available in [Miiify](https://github.com/nationalarchives/miiify) to allow the community to interact with content displayed in a 3D virtual gallery. Users can learn about the content on display and also contribute back their knowledge. All contributions go through a review process before being accessible within the platform or within IIIF viewers.
 
 ## Chatbot commands
 
