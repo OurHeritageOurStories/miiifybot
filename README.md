@@ -16,6 +16,13 @@ To create a new annotation for an item. This will then be submitted for review b
 $describe <item> <description>
 ```
 
+## Discord channel
+
+The channel is available via the following invite link:
+```
+https://discord.gg/QmHfjAtBDp
+```
+
 ## Example gallery
 
 You can try an example gallery of cats from Wikidata:
