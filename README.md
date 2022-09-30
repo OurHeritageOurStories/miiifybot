@@ -43,3 +43,15 @@ https://miiify.rocks/annotations/cats
 You can even access the data directly in its GitHub repository:
 
 https://github.com/jptmoore/annotations/tree/master/cats/collection
+
+## Discord examples
+
+To find out what contributions have been made to the cat with label p1 we would do the following:
+```
+$about p1
+```
+
+To make a new contribution we could do the following:
+```
+$describe p1 this is a cute cat!
+```
