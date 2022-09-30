@@ -19,8 +19,10 @@ def handle_command(message):
         case ['$describe', item, *xs] if xs != []:
             author = message.author.display_name
             description = ' '.join(xs)
+            item = item.lower()
             return anno.describe(author, item, description)
         case ['$about' | '$info', item]:
+            item = item.lower()
             return anno.about(item)
         case ['$ping']:
             return 'pong'
