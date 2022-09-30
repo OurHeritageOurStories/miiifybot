@@ -44,7 +44,7 @@ You can even access the data directly in its GitHub repository:
 
 https://github.com/jptmoore/annotations/tree/master/cats/collection
 
-## Discord examples
+## Tutorial
 
 To find out what contributions have been made to the cat with label p1 we would do the following:
 ```
