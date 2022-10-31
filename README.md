@@ -31,14 +31,11 @@ https://hubs.mozilla.com/dcRzw4T/general
 
 The annotations are available in standard IIIF viewers:
 
-https://projectmirador.org/embed/?iiif-content=https://miiifystore.s3.eu-west-2.amazonaws.com/iiif/manifest.json
-
+https://projectmirador.org/embed/?iiif-content=https://miiify.rocks/manifest/cats
 
 The data is also accessible from the annotation server:
 
-
 https://miiify.rocks/annotations/cats
-
 
 You can even access the data directly in its GitHub repository:
 
